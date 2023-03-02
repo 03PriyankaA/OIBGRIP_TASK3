@@ -9,9 +9,12 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background: linear-gradient(135deg, #9a0e82, #0e8192);
+    background: linear-gradient(135deg, #4d4d53, #0e8192);
   }
-  
+  body h1{
+    text-align: center;
+    font-size: 300%;
+  }
   ::selection {
     color: #fff;
     background: #ff00d4;
@@ -99,7 +102,7 @@
     letter-spacing: 0.3px;
     pointer-events: none;
     transition: transform 0.25s ease;
-    background: linear-gradient(135deg, #791368 0%, #106976 100%);
+    background: linear-gradient(135deg, #ba109e 0%, #106976 100%);
   }
   
   .clear-btn.active {
